@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.container {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 14px;
+  margin: 20px;
+  background-color: white;
+  height: 80;
+}
+.navbar {
+  display: flex;
+  border-radius: 14px;
+  height: 80px;
+  background: #eee;
+  font-family: calibri;
+  padding-left: 16px;
+  padding-right: 16px;
+ 
+}
+.head1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo1 a {
+  font-size: 32px;
+  color: black;
+  font-weight: 600;
+}
+li { 
+
+  list-style: none;
+  display: inline-block;
+}
+li a {
+ 
+  color:black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+a1 {
+  margin-left: 250px;
+ padding: 10px;
+  border-radius: 20px;
+  background-color :#eee;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+button1 {
+  margin-left: 250px;
+  background-color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 8px;
+  width: 80px;
+}
+button2 {
+  background-color: rgb(27, 27, 111);
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 8px;
+  width: 160px;
+}
+button1 a {
+  color: rgb(5, 5, 5);
+  font-weight: bold;
+  font-size: 16px;
+}
+button2 a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.head2 {
+  position: relative;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.head2 h2 {
+  position: absolute;
+  left: 37%;
+  top: 22%;
+}
+.head2 p {
+  position: absolute;
+  left: 36%;
+  top: 32%;
+  width: 380px;
+}
+.head2 .searchbar {
+  position: absolute;
+  left: 35%;
+  top: 44%;}
+  .head3{
+    padding-left: 4px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  .head3 a{
+    margin-right: 14px;
+  }
+  .head3 a1{
+    width: 10px;
+    padding: 10p;
+  }
+  .head3 .icon00{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+  }
+  .head3 .icon0{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container .contentlp{
+    width: 150px ;
+    height: 40px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding-right: 4px;
+    font-size: 14px;
+}
+
+.container  .contentlp .lastest {
+    font-size: 14px;
+    width: 55px;
+    font-weight: bold;
+    padding:  8px;
+    margin: 5px 5px;
+    align-items: center;
+    text-align: center;
+    color: rgb(68, 73, 78);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container .contentlp .publer{
+    font-size: 14px;
+    width: 55px;
+    font-weight: bold;
+    padding:  8px;
+    align-items: center;
+    text-align: center;
+    color: rgba(101, 104, 106, 0.752);
+    border-radius: 20px;
+}
+/* From Uiverse.io by alexruix */
+.group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 400px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.cards{
+  padding: 16px;
+  padding-left: 16px;
+  display: grid;
+  grid-template-rows: 90%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6em;
+
+}
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+.card {
+  position: relative;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.big-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.name {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.rating {
+  position:absolute;
+  right: 0;;
+  font-size: 1.2em;
+  margin-top: 4px;
+}
